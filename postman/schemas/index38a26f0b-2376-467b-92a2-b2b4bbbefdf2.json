@@ -9,7 +9,7 @@
     "url" : "https://goftkvp41c.execute-api.us-east-1.amazonaws.com/{basePath}",
     "variables" : {
       "basePath" : {
-        "default" : "nwnkfew222_213213"
+        "default" : "withou-auto"
       }
     }
   } ],
@@ -38,12 +38,12 @@
         }
       }
     },
-    "/garg" : {
+    "/users" : {
       "get" : {
         "operationId" : "listUser",
         "responses" : {
           "default" : {
-            "description" : "Default response for GET /user"
+            "description" : "Default response for GET /users"
           }
         },
         "x-amazon-apigateway-integration" : {
